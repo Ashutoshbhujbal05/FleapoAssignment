@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteFleapo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="testFleapo.TestClassFleapo">
+        <methods>
+          <include name="Signout"/>
+          <include name="operBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="Login"/>
+          <include name="PerformActionOnPage"/>
+        </methods>
+      </class> <!-- testFleapo.TestClassFleapo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SuiteFleapo] -->
